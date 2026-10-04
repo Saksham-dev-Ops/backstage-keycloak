@@ -1,0 +1,16 @@
+{
+  "name": "@internal/plugin-catalog-backend-module-database",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "private": true,
+  "backstage": {
+    "role": "backend-plugin-module"
+  },
+  "dependencies": {
+    "@backstage/backend-plugin-api": "^1.10.1",
+    "@backstage/catalog-model": "^1.10.1",
+    "@backstage/plugin-catalog-common": "^1.2.0",
+    "@backstage/plugin-catalog-node": "^2.2.5"
+  }
+}

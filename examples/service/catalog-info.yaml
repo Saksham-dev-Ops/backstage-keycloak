@@ -1,0 +1,11 @@
+apiVersion: mycompany.io/v1alpha1
+kind: Service
+
+metadata:
+  name: example-service
+  description: Example entity of the Service kind
+
+spec:
+  type: example
+  owner: group:tenant/acme
+  lifecycle: experimental

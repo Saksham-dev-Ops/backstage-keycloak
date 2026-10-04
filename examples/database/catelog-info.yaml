@@ -1,0 +1,12 @@
+apiVersion: mycompany.io/v1alpha1
+kind: Database
+
+metadata:
+  name: customer-db
+  description: Customer database
+
+spec:
+  engine: postgres
+  version: "16"
+  owner: group:tenant/acme
+  lifecycle: production
